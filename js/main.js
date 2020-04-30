@@ -15,7 +15,11 @@ modalClose.addEventListener('click', (e) => {
 
 
 function showModal(event) {
+<<<<<<< HEAD
      if(event.target.tagName !== ('IMG')) return;
+=======
+     if (event.target.tagName !== ('IMG')) return;
+>>>>>>> 71f9a466d9071eb4e4c3206354afad6ce9b689d8
      let numImg = 0;
      let curImg = event.target.closest('div');
 
